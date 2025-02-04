@@ -1,0 +1,100 @@
+{
+    "adobe": {
+        "logoUrl": "images/places/logo-adobe.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Adobe Inc."}
+        }
+    },
+
+    "apple": {
+        "logoUrl": "images/places/logo-apple.png",
+        "faIcon": "fab fa-apple",
+        "locales": {
+            "en": {"name": "Apple Inc."}
+        }
+    },
+
+    "coursera": {
+        "logoUrl": "images/places/logo-coursera.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Coursera"}
+        }
+    },
+
+    "forbes": {
+        "logoUrl": null,
+        "faIcon": "fa-solid fa-newspaper",
+        "locales": {
+            "en": {"name": "Forbes"}
+        }
+    },
+
+    "google": {
+        "logoUrl": null,
+        "faIcon": "fab fa-google",
+        "locales": {
+            "en": {"name": "Google"}
+        }
+    },
+
+    "harvard": {
+        "logoUrl": "images/places/logo-harvard.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Harvard University"},
+            "es": {"name": "Universidad de Harvard"},
+            "fr": {"name": "Université Harvard"},
+            "zh": {"name": "哈佛大学"}
+        }
+    },
+
+    "UCV": {
+        "logoUrl": "images/places/ucv.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "César Vallejo University"},
+            "es": {"name": "Universidad César Vallejo"},
+            "fr": {"name": "Université César Vallejo"},
+            "zh": {"name": "塞萨尔·巴列霍大学"}
+        }
+    },
+
+    "udacity": {
+        "logoUrl": "images/places/logo-udacity.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Udacity"}
+        }
+    },
+
+    "Zonatech": {
+        "logoUrl": "images/places/zonatech.jpeg",
+        "faIcon": "fa-solid fa-building",
+        "locales": {
+            "en": {"name": "Zonatech Perú"}
+        }
+    },
+    "Credly": {
+        "logoUrl": null,
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Credly"}
+        }
+    },
+    "Gitkraken": {
+        "logoUrl": null,
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Gitkraken"}
+        }
+    },
+    "Freecodecamp": {
+        "logoUrl": null,
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Freecodecamp"}
+        }
+    }
+}

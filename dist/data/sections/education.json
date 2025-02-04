@@ -1,0 +1,53 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "A glimpse into my academic trajectory and accomplishments."
+        },
+
+        "es": {
+            "title": "Antecedentes <span class='text-primary'>Educativos</span>",
+            "description": "Un vistazo a mi trayectoria académica y logros."
+        },
+
+        "fr": {
+            "title": "Parcours <span class='text-primary'>Éducatif</span>",
+            "description": "Un aperçu de mon parcours académique et de mes réalisations."
+        },
+
+        "zh": {
+            "title": "<span class='text-primary'>教育</span> 背景",
+            "description": "一瞥我的学术轨迹和成就。"
+        }
+    },
+
+    "items": [
+        {
+            "id": "uni_ucv",
+            "place": "@link{places.UCV}",
+            "period": ["2020/03", "2025/12"],
+
+            "locales": {
+                "en": {
+                    "title": "Systems Engineering",
+                    "description": "I am a 9th-semester student of Systems Engineering at UCV. Throughout my studies, I have developed skills in backend development and the use of various technologies, and I continue expanding my knowledge to tackle new technological challenges."
+                },
+
+                "es": {
+                    "title": "Ingenieria de Sistemas",
+                    "description": "Soy estudiante de 9° semestre de Ingeniería de Sistemas en la UCV. Durante mi formación, desarrollé habilidades en desarrollo backend y el uso de diversas tecnologías, y continúo ampliando mis conocimientos para enfrentar nuevos desafíos tecnológicos."
+                },
+
+                "fr": {
+                    "title": "Génie des Systèmes",
+                    "description": "Je suis étudiant en 9e semestre d'ingénierie des systèmes à l'UCV. Au cours de ma formation, j'ai développé des compétences en développement backend et dans l'utilisation de diverses technologies, et je continue d'élargir mes connaissances pour relever de nouveaux défis technologiques."
+                },
+
+                "zh": {
+                    "title": "系统工程",
+                    "description": "我是 UCV 系统工程专业的九年级学生。在学习过程中，我培养了后端开发和多种技术的技能，并继续拓展我的知识以应对新的技术挑战。"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Portfolio</span>",
+            "description": "Explore a selection of my recent projects and creative works."
+        },
+        "es": {
+            "title": "Mi <span class='text-primary'>Portafolio</span>",
+            "description": "Explora una selección de mis proyectos recientes y trabajos creativos."
+        },
+        "fr": {
+            "title": "Mon <span class='text-primary'>Portfolio</span>",
+            "description": "Découvrez une sélection de mes projets récents et œuvres créatives."
+        },
+        "zh": {
+            "title": "我的<span class='text-primary'>作品集</span>",
+            "description": "浏览我最近的一些项目和创意作品。"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "Management",
+            "locales": {
+                "en": {"title": "Management"},
+                "es": {"title": "Gestión"},
+                "fr": {"title": "Gestion"},
+                "zh": {"title": "管理"}
+            }
+        },
+        {
+            "id": "Utilities",
+            "locales": {
+                "en": {"title": "Utilities"},
+                "es": {"title": "Utilidades"},
+                "fr": {"title": "Utilitaires"},
+                "zh": {"title": "工具"}
+            }
+        },
+        {
+            "id": "Integrations",
+            "locales": {
+                "en": {"title": "Integrations"},
+                "es": {"title": "Integraciones"},
+                "fr": {"title": "Intégrations"},
+                "zh": {"title": "集成"}
+            }
+        }
+    ],
+
+    "items": {
+        "Management": [
+            {
+                "id": "Groove",
+                "title": "Groove🤖",
+                "logoUrl": "images/portfolio/App-music.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/AppMusic", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Groove</b> is a music application developed in C# with a layered architecture, ensuring efficient and scalable performance. It uses .NET and SQL Server to manage business logic and the interface. This project is designed to be easy to maintain and extend, promoting good programming practices. It serves as a solid foundation for music applications or similar projects.",
+                        "tags": ["application", "entertainment", "music", "concentration"]
+                    },
+                    "es": {
+                        "description": "<b>Groove </b> es una aplicación de música desarrollada en C# con una arquitectura en capas, que garantiza un rendimiento eficiente y escalable. Utiliza .NET y SQL Server para gestionar la lógica de negocio y la interfaz. Este proyecto está diseñado para ser fácil de mantener y extender, promoviendo buenas prácticas de programación. Es una base sólida para aplicaciones musicales o proyectos similares.",
+                        "tags": ["aplicación", "entretenimiento", "música", "concentración"]
+                    },
+                    "fr": {
+                        "description": "<b>Groove</b> est une application musicale développée en C# avec une architecture en couches, garantissant des performances efficaces et évolutives. Elle utilise .NET et SQL Server pour gérer la logique métier et l'interface. Ce projet est conçu pour être facile à maintenir et à étendre, en promouvant de bonnes pratiques de programmation. C'est une base solide pour des applications musicales ou des projets similaires.",
+                        "tags": ["application", "divertissement", "musique", "concentration"]
+                    },
+                    "zh": {
+                        "description": "<b>Groove</b> 是一款使用 C# 开发的音乐应用，采用分层架构，确保高效且可扩展的性能。它使用 .NET 和 SQL Server 来管理业务逻辑和界面。该项目旨在易于维护和扩展，推广良好的编程实践。它是音乐应用或类似项目的坚实基础。",
+                        "tags": ["应用程序", "娱乐", "音乐", "集中"]
+                    }
+                }
+            },
+
+            {
+                "id": "ricplastApp",
+                "title": "RicplastApp📱",
+                "logoUrl": "images/portfolio/app-ricplast.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/InventarioRicPlast", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>RicplastApp</b> is a mobile application for efficient inventory management. It allows users to register, update, and check products quickly and easily. Ideal for small and medium-sized businesses, optimizing stock control. It facilitates decision-making with immediate access to data.",
+                        "tags": ["app", "inventory management", "mobile", "businesses"]
+                    },
+                    "es": {
+                        "description": "<b>RicplastApp</b> es una aplicación móvil para la gestión eficiente de inventarios. Permite registrar, actualizar y consultar productos de manera rápida y sencilla. Ideal para pequeñas y medianas empresas, optimizando el control de stock. Facilita la toma de decisiones con acceso inmediato a los datos.",
+                        "tags": ["app", "gestión de inventarios", "móvil", "empresas"]
+                    },
+                    "fr": {
+                        "description": "<b>RicplastApp</b> est une application mobile pour la gestion efficace des stocks. Elle permet d'enregistrer, mettre à jour et consulter les produits rapidement et facilement. Idéale pour les petites et moyennes entreprises, elle optimise le contrôle des stocks. Elle facilite la prise de décisions grâce à un accès immédiat aux données.",
+                        "tags": ["app", "gestion des stocks", "mobile", "entreprises"]
+                    },
+                    "zh": {
+                        "description": "<b>RicplastApp</b> 是一款用于高效管理库存的移动应用。它允许用户快速简便地注册、更新和查看产品。非常适合中小型企业，优化库存控制。通过即时访问数据，帮助做出决策。",
+                        "tags": ["app", "库存管理", "移动", "企业"]
+                    }
+                }
+            },
+
+
+            {
+                "id": "ricPlast_Web",
+                "title": "RicplastWeb🌐",
+                "logoUrl": "images/portfolio/13.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/RicPlast_Web", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>RicplastWeb</b> is a web application designed for managing products and services for the company RicPlast. Developed in PHP, it allows users to manage inventory, view products, and conduct transactions online. Its intuitive interface and robust functionality help improve operational efficiency, facilitating real-time management. Ideal for businesses looking to optimize their sales and stock control processes, accessible from any device with an internet connection.",
+                        "tags": ["web", "PHP", "inventory management", "e-commerce", "business"]
+                    },
+                    "es": {
+                        "description": "<b>RicplastWeb</b> es una aplicación web diseñada para la gestión de productos y servicios de la empresa RicPlast. Desarrollada en PHP, permite a los usuarios administrar el inventario, visualizar productos y realizar transacciones en línea. Su interfaz intuitiva y funcionalidad robusta ayudan a mejorar la eficiencia operativa, facilitando la gestión en tiempo real. Ideal para empresas que buscan optimizar sus procesos de venta y control de stock de manera accesible desde cualquier dispositivo con conexión a internet.",
+                        "tags": ["web", "PHP", "gestión de inventarios", "e-commerce", "empresa"]
+                    },
+                    "fr": {
+                        "description": "<b>RicplastWeb</b> est une application web conçue pour gérer les produits et services de l'entreprise RicPlast. Développée en PHP, elle permet aux utilisateurs de gérer l'inventaire, de visualiser les produits et de réaliser des transactions en ligne. Son interface intuitive et ses fonctionnalités robustes aident à améliorer l'efficacité opérationnelle, facilitant la gestion en temps réel. Idéale pour les entreprises cherchant à optimiser leurs processus de vente et de contrôle des stocks, accessible depuis n'importe quel appareil avec une connexion Internet.",
+                        "tags": ["web", "PHP", "gestion des stocks", "e-commerce", "entreprise"]
+                    },
+                    "zh": {
+                        "description": "<b>RicplastWeb</b> 是一款用于管理RicPlast公司产品和服务的Web应用。使用PHP开发，允许用户管理库存、查看产品并进行在线交易。其直观的界面和强大的功能有助于提高运营效率，促进实时管理。非常适合希望优化销售和库存控制流程的企业，可以通过任何具有互联网连接的设备访问。",
+                        "tags": ["web", "PHP", "库存管理", "电子商务", "企业"]
+                    }
+                }
+            }
+        ],
+
+        "Utilities": [
+            {
+                "id": "cancervision",
+                "title": "CancerVisión🩺",
+                "logoUrl": "images/portfolio/app-cancervision.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/CancerVision", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Cancer Vision</b> is a tool based on artificial intelligence designed to analyze medical images and detect patterns that could indicate the presence of cancer. It uses neural networks and advanced image processing techniques to compare and find similarities between images, aiding in the early detection of the disease. The system is optimized to work with both CPU and GPU, featuring an intuitive interface that facilitates fast and efficient analysis, making it a valuable resource for healthcare professionals.",
+                        "tags": ["application", "medicine", "diagnosis", "health"]
+                    },
+                    "es": {
+                        "description": "<b>Cancer Visión</b> es una herramienta basada en inteligencia artificial diseñada para analizar imágenes médicas y detectar patrones que podrían indicar la presencia de cáncer. Utiliza redes neuronales y técnicas avanzadas de procesamiento de imágenes para comparar y encontrar similitudes entre las imágenes, ayudando en la identificación temprana de la enfermedad. El sistema está optimizado para funcionar con CPU y GPU, y presenta una interfaz intuitiva que facilita el análisis rápido y eficiente, lo que lo convierte en un recurso valioso para profesionales de la salud.",
+                        "tags": ["aplicación", "medicina", "diagnóstico","salud"]
+                    },
+                    "fr": {
+                        "description": "<b>Cancer Vision</b> est un outil basé sur l'intelligence artificielle conçu pour analyser des images médicales et détecter des motifs pouvant indiquer la présence de cancer. Il utilise des réseaux neuronaux et des techniques avancées de traitement d'images pour comparer et trouver des similitudes entre les images, aidant ainsi à la détection précoce de la maladie. Le système est optimisé pour fonctionner avec les CPU et GPU, et présente une interface intuitive qui facilite une analyse rapide et efficace, ce qui en fait une ressource précieuse pour les professionnels de la santé.",
+                        "tags": ["application", "médecine", "diagnostic", "santé"]
+                    },
+                    "zh": {
+                        "description": "<b>Cancer Vision</b> 是一款基于人工智能的工具，旨在分析医学图像并检测可能指示癌症存在的模式。它使用神经网络和先进的图像处理技术来比较和查找图像之间的相似性，帮助早期发现疾病。该系统经过优化，可以在CPU和GPU上运行，并且具有直观的界面，方便快速高效的分析，使其成为医疗专业人员的宝贵资源。",
+                        "tags": ["应用程序", "医学", "诊断", "健康"]
+                    }
+                }
+            },
+
+            {
+                "id": "farmacianet",
+                "title": "FarmaciaNet🩹",
+                "logoUrl": "images/portfolio/12.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/FarmaciaNet", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>FarmaciaNet</b> is an application designed for managing and controlling pharmaceutical products. Developed in C#, it provides functionalities to handle inventories, track sales, and manage pharmacy operations efficiently. This application is ideal for small and medium-sized businesses, helping to improve organization, optimize time, and ensure product availability. Its modular structure facilitates integration with other systems, allowing for more agile and accessible management.",
+                        "tags": ["application", "inventory management", "pharmacy", "C#", "sales"] 
+                    },
+                    "es": {
+                        "description": "<b>FarmaciaNet</b> es una aplicación diseñada para la gestión y control de productos farmacéuticos. Desarrollada en C#, proporciona funcionalidades para manejar inventarios, realizar seguimientos de ventas y gestionar las operaciones de una farmacia de manera eficiente. Esta aplicación es ideal para pequeñas y medianas empresas, ayudando a mejorar la organización, optimizar el tiempo y asegurar la disponibilidad de productos. Su estructura modular facilita la integración con otros sistemas, permitiendo una administración más ágil y accesible.",
+                        "tags": ["aplicación", "gestión de inventarios", "farmacia", "C#", "ventas"]
+                    },
+                    "fr": {
+                        "description": "<b>FarmaciaNet</b> est une application conçue pour la gestion et le contrôle des produits pharmaceutiques. Développée en C#, elle offre des fonctionnalités pour gérer les inventaires, suivre les ventes et gérer efficacement les opérations d'une pharmacie. Cette application est idéale pour les petites et moyennes entreprises, aidant à améliorer l'organisation, optimiser le temps et garantir la disponibilité des produits. Sa structure modulaire facilite l'intégration avec d'autres systèmes, permettant une gestion plus agile et accessible.",
+                        "tags": ["application", "gestion des inventaires", "pharmacie", "C#", "ventes"]
+                    },
+                    "zh": {
+                        "description": "<b>FarmaciaNet</b> 是一款用于管理和控制药品的应用程序。使用C#开发，提供处理库存、跟踪销售和有效管理药店运营的功能。此应用程序非常适合中小型企业，帮助提高组织效率、优化时间并确保产品的可用性。其模块化结构方便与其他系统集成，实现更加灵活和可访问的管理。",
+                        "tags": ["应用程序", "库存管理", "药店", "C#", "销售"]
+                    }
+                }
+            },
+
+            {
+                "id": "mibio",
+                "title": "Mibio👨‍💻",
+                "logoUrl": "images/portfolio/mibio.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/MiBio", "id": "Github"},
+                    {"faIcon": "fa-solid fa-globe", "href": "http://mibio.aldairdominguez.tech/", "id": "Internet"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>MiBio</b> is an interactive web application designed to create and display a personal profile in a visually appealing way. Using technologies such as HTML, CSS, JavaScript, Bootstrap, and Vite, it offers a smooth and optimized user experience. The project allows you to present personal information, skills, and projects in an organized manner, providing an accessible and professional solution to showcase your profile in both personal and professional settings.",
+                        "tags": ["web", "personal profile", "Bootstrap", "JavaScript", "Vite"]
+                    },
+                    "es": {
+                        "description": "<b>Mibio</b> es una aplicación web interactiva diseñada para crear y mostrar un perfil personal de manera visualmente atractiva. Utilizando tecnologías como HTML, CSS, JavaScript, Bootstrap y Vite, ofrece una experiencia de usuario fluida y optimizada. El proyecto permite presentar información personal, habilidades y proyectos de forma organizada, brindando una solución accesible y profesional para mostrar tu perfil tanto en un entorno personal como profesional.",
+                        "tags": ["web", "perfil personal", "Bootstrap", "JavaScript", "Vite"]
+                    },
+                    "fr": {
+                        "description": "<b>MiBio</b> est une application web interactive conçue pour créer et afficher un profil personnel de manière visuellement attrayante. Utilisant des technologies telles que HTML, CSS, JavaScript, Bootstrap et Vite, elle offre une expérience utilisateur fluide et optimisée. Le projet permet de présenter des informations personnelles, des compétences et des projets de manière organisée, offrant une solution accessible et professionnelle pour afficher votre profil tant dans un cadre personnel que professionnel.",
+                        "tags": ["web", "profil personnel", "Bootstrap", "JavaScript", "Vite"]
+                    },
+                    "zh": {
+                        "description": "<b>MiBio</b> 是一款交互式Web应用，旨在以视觉吸引的方式创建和展示个人资料。使用HTML、CSS、JavaScript、Bootstrap和Vite等技术，提供流畅且优化的用户体验。该项目允许以有组织的方式展示个人信息、技能和项目，为您提供一个既便捷又专业的解决方案，展示您的个人资料，适用于个人和职业环境。",
+                        "tags": ["web", "个人资料", "Bootstrap", "JavaScript", "Vite"]
+                    }
+                }
+            }
+        ],
+
+        "Integrations": [
+            {
+                "id": "tareflow",
+                "title": "TareaFlow🗃️",
+                "logoUrl": "images/portfolio/servicio-apiflow.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/ApiTarea", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>TareaFlow</b> is an API designed to efficiently manage tasks using a layered architecture. Using .NET Core, it allows creating, reading, updating, and deleting tasks through RESTful endpoints. The clean architecture ensures the separation of business logic and data access, which facilitates scalability and system maintenance. It is ideal for integration into project management applications or productivity tools. Additionally, it includes interactive documentation via Swagger to make it easier to use.",
+                        "tags": ["API", "task management", ".NET Core", "clean architecture"]
+                    },
+                    "es": {
+                        "description": "<b>TareaFlow</b> es una API diseñada para gestionar tareas de manera eficiente mediante una arquitectura en capas. Utilizando .NET Core, permite crear, leer, actualizar y eliminar tareas a través de endpoints RESTful. La arquitectura limpia garantiza la separación de la lógica de negocio y el acceso a datos, lo que facilita la escalabilidad y el mantenimiento del sistema. Ideal para ser integrada en aplicaciones de gestión de proyectos o herramientas de productividad. Además, incluye documentación interactiva mediante Swagger para facilitar su uso.",
+                        "tags": ["API", "gestión de tareas", ".NET Core", "arquitectura limpia"]
+                    },
+                    "fr": {
+                        "description": "<b>TareaFlow</b> est une API conçue pour gérer les tâches de manière efficace en utilisant une architecture en couches. Grâce à .NET Core, elle permet de créer, lire, mettre à jour et supprimer des tâches via des endpoints RESTful. L'architecture propre garantit la séparation de la logique métier et de l'accès aux données, ce qui facilite l'évolutivité et la maintenance du système. Elle est idéale pour être intégrée dans des applications de gestion de projets ou des outils de productivité. De plus, elle inclut une documentation interactive via Swagger pour en faciliter l'utilisation.",
+                        "tags": ["API", "gestion des tâches", ".NET Core", "architecture propre"]
+                    },
+                    "zh": {
+                        "description": "<b>TareaFlow</b> 是一款使用分层架构高效管理任务的 API。它使用 .NET Core 通过 RESTful 接口创建、读取、更新和删除任务。清晰的架构确保了业务逻辑与数据访问的分离，从而促进了系统的可扩展性和维护性。非常适合集成到项目管理应用程序或生产力工具中。此外，它还包括通过 Swagger 提供的交互式文档，方便使用。",
+                        "tags": ["API", "任务管理", ".NET Core", "清晰架构"]
+                    }
+                }
+            },
+
+            {
+                "id": "tourapi",
+                "title": "TourAPI🗺️",
+                "logoUrl": "images/portfolio/api-tour.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/ApiTurismo", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>TourAPI</b> is an API designed to facilitate the management and querying of tourism information. Developed with .NET Core, this API allows access to data about destinations, activities, and tourism services through RESTful endpoints. With a clean architecture, it ensures that the system is easy to maintain and scale, making it an excellent choice for integration into tourism platforms or applications, enhancing the user experience with quick and efficient access to relevant information.",
+                        "tags": ["api", "tourism", "travel", "destinations", ".NET Core"]
+
+                    },
+                    "es": {
+                        "description": "<b>TourAPI</b> es una API diseñada para facilitar la gestión y consulta de información turística. Desarrollada con .NET Core, esta API permite acceder a datos sobre destinos, actividades y servicios turísticos mediante endpoints RESTful. Con una arquitectura limpia, se asegura que el sistema sea fácil de mantener y escalar, lo que lo convierte en una excelente opción para integrarse en plataformas o aplicaciones dedicadas al turismo, mejorando la experiencia del usuario con acceso rápido y eficiente a información relevante.",
+                        "tags": ["api", "turismo", "viajes", "destinos",".NET Core"]
+                    },
+                    "fr": {
+                        "description": "<b>TourAPI</b> est une API conçue pour faciliter la gestion et la consultation d'informations touristiques. Développée avec .NET Core, cette API permet d'accéder à des données sur des destinations, des activités et des services touristiques via des points de terminaison RESTful. Avec une architecture propre, elle garantit que le système est facile à maintenir et à faire évoluer, ce qui en fait un excellent choix pour l'intégration dans des plateformes ou des applications touristiques, améliorant l'expérience utilisateur grâce à un accès rapide et efficace à des informations pertinentes.",
+                        "tags": ["api", "tourisme", "voyages", "destinations", ".NET Core"]
+                    },
+                    "zh": {
+                        "description": "<b>TourAPI</b> 是一款旨在促进旅游信息管理和查询的 API。使用 .NET Core 开发，该 API 允许通过 RESTful 接口访问有关目的地、活动和旅游服务的数据。具有清晰的架构，确保系统易于维护和扩展，使其成为集成到旅游平台或应用程序的优秀选择，通过快速高效地访问相关信息提升用户体验。",
+                        "tags": ["api", "旅游", "旅行", "目的地", ".NET Core"]
+                    }
+                }
+            }
+        ]
+    }
+}

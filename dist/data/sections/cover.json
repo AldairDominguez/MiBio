@@ -1,0 +1,42 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "Backend developer specialized in .NET, I stand out for creating robust and scalable technological solutions. My passion for innovation and the design of efficient systems drives me to transform ideas into digital realities. Let's work together to create something extraordinary!"
+        },
+
+        "es": {
+            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
+            "welcomeShort": "¡Saludos!",
+            "bio": "Desarrollador backend especializado en .NET, me destaco por crear soluciones tecnológicas robustas y escalables. Mi pasión por la innovación y el diseño de sistemas eficientes me impulsa a transformar ideas en realidades digitales. ¡Trabajemos juntos para crear algo extraordinario!"
+        },
+
+        "fr": {
+            "welcome": "Bienvenue sur mon <span class='text-primary'>CV</span>!",
+            "welcomeShort": "Bienvenue!",
+            "bio": "Développeur backend spécialisé en .NET, je me démarque par la création de solutions technologiques robustes et évolutives. Ma passion pour l'innovation et la conception de systèmes efficaces me pousse à transformer les idées en réalités numériques. Travaillons ensemble pour créer quelque chose d'extraordinaire !"
+        },
+
+        "zh": {
+            "welcome": "欢迎来到我的<span class='text-primary'>简历</span>！",
+            "welcomeShort": "欢迎!",
+            "bio": "后端开发人员，专注于 .NET，擅长创建稳健且可扩展的技术解决方案。我对创新和高效系统设计的热情驱使我将创意转化为数字化现实。让我们一起合作，创造非凡的成果！"
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.instagram}",
+            "@link{profile.contact.facebook}",
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}",
+            "@link{profile.contact.phone}"
+        ]
+    }
+}

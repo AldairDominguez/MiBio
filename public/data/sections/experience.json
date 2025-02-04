@@ -1,0 +1,53 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey."
+        },
+
+        "es": {
+            "title": "<span class='text-primary'>Experiencia</span> Profesional",
+            "description": "Un vistazo a mi experiencia laboral y trayectoria profesional."
+        },
+
+        "fr": {
+            "title": "Expérience <span class='text-primary'>Professionnelle</span>",
+            "description": "Un aperçu de mon expérience professionnelle et de mon parcours de carrière."
+        },
+
+        "zh": {
+            "title": "<span class='text-primary'>专业</span> 经验",
+            "description": "了解我的工作经验和职业之旅。"
+        }
+    },
+
+    "items": [
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.Zonatech}",
+            "period": ["2024/01", "2024/12"],
+            "locales": {
+                "en": {
+                    "title": "Junior .Net Developer",
+                    "description": "At ZonaTech Peru, I contributed to the development of APIs and backend services using ASP.NET Core and Entity Framework Core, managed SQL Server databases, and implemented security with JSON Web Tokens. I also participated in unit and integration tests to ensure code quality and in the deployment of applications in production environments.",
+                    "tags": ["Entity Framework", "ASP.NET", "ASP.NET Web API", ".NET", "Scrum", "C#", "Microsoft SQL Server"]
+                },
+                "es": {
+                    "title": "Desarrollador Junior .Net",
+                    "description": "En ZonaTech Perú, contribuí al desarrollo de APIs y servicios backend con ASP.NET Core y Entity Framework Core, gestioné bases de datos SQL Server e implementé seguridad mediante JSON Web Tokens. También participé en pruebas unitarias e integración para garantizar la calidad del código y en el despliegue de aplicaciones en entornos de producción.",
+                    "tags": ["Entity Framework", "ASP.NET","ASP.NET Web API", ".NET", "Scrum", "C#","Microsoft SQL Server"]
+                },
+                "fr": {
+                    "title": "Développeur Junior .Net",
+                    "description": "Chez ZonaTech Peru, j'ai contribué au développement d'APIs et de services backend avec ASP.NET Core et Entity Framework Core, géré des bases de données SQL Server et mis en place la sécurité avec des JSON Web Tokens. J'ai également participé aux tests unitaires et d'intégration pour garantir la qualité du code et au déploiement d'applications en environnement de production.",
+                    "tags": ["Entity Framework", "ASP.NET", "ASP.NET Web API", ".NET", "Scrum", "C#", "Microsoft SQL Server"]
+                },
+                "zh": {
+                    "title": "初级 .Net 开发人员",
+                    "description": "在 ZonaTech Peru，我参与了使用 ASP.NET Core 和 Entity Framework Core 开发 API 和后端服务，管理 SQL Server 数据库，并通过 JSON Web Tokens 实现安全性。我还参与了单元测试和集成测试，以确保代码质量，并参与了在生产环境中部署应用程序。",
+                    "tags": ["Entity Framework", "ASP.NET", "ASP.NET Web API", ".NET", "Scrum", "C#", "Microsoft SQL Server"]
+                }
+            }
+        }                      
+    ]
+}
