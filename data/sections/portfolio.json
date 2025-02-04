@@ -193,7 +193,7 @@
                 "title": "Mibio👨‍💻",
                 "logoUrl": "images/portfolio/mibio.png",
                 "links": [
-                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez", "id": "Github"},
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/MiBio", "id": "Github"},
                     {"faIcon": "fa-solid fa-globe", "href": "https://googleplay.com", "id": "Internet"}
                 ],
                 "locales": {
