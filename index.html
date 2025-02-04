@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/MiBio/images/icons/ad.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="A simple and minimalistic resumé template." />
+    <meta name="author" content="Ryan Balieiro" />
+    <title>Aldair Dominguez</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <script type="module" crossorigin src="/MiBio/assets/index-8b8b0693.js"></script>
+  <link rel="stylesheet" href="/MiBio/assets/index-c944a0f2.css">
+</head>
+<body class="no-scroll" style="background-color: #212529">
+    <div id="app"></div>
+    
+
+    <script>
+        // Store the original title
+        const originalTitle = document.title;
+
+        // Event when the window loses focus (user leaves the tab)
+        window.addEventListener('blur', function() {
+            document.title = "¡Vuelve pronto! 😀";
+        });
+
+        // Event when the window gains focus (user comes back to the tab)
+        window.addEventListener('focus', function() {
+            document.title = originalTitle;
+        });
+    </script>
+</body>
+</html>

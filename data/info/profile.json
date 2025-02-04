@@ -1,0 +1,84 @@
+{
+    "name": "Aldair Dominguez",
+    "profilePictureUrl": "images/pictures/foto3.png",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a class='light' href='https://github.com/AldairDominguez'>Aldair Dominguez</a></strong>",
+            "role": ".NET Backend Developer"
+        },
+
+        "es": {
+            "credits": "Hecho por <strong><a class='light' href='https://github.com/AldairDominguez'>Aldair Dominguez</a></strong>",
+            "role": "Desarrollador Backend .NET"
+        },
+
+        "fr": {
+            "credits": "Conçu par <strong><a class='light' href='https://github.com/AldairDominguez'>Aldair Dominguez</a></strong>",
+            "role": "Développeur back-end .NET"
+        },
+
+        "zh": {
+            "credits": "设计：<strong><a class='light' href='https://github.com/AldairDominguez'>Aldair Dominguez</a></strong>",
+            "role": "后端开发人员 .NET"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "San juan de Lurigancho",
+            "valueShort": "San juan de Lurigancho , CP 15404",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "aldair30d@gmail.com",
+            "valueShort": "aldair30d@gmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:aldair30d@gmail.com"
+        },
+
+        "facebook": {
+            "id": "facebook",
+            "value": "Aldair Dominguez",
+            "valueShort": "A. Dominguez",
+            "faIcon": "fa-brands fa-facebook",
+            "href": "https://www.facebook.com/profile.php?id=100007465247441"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@AldairDominguez",
+            "valueShort": "@AldairDominguez",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/AldairDominguez"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "@aldairdo.dev",
+            "valueShort": "@aldairdo.dev",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://www.instagram.com/aldair8088/"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "Aldair Dominguez",
+            "valueShort": "Aldair Dominguez",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/aldairdz/"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "(+51) 927418762",
+            "valueShort": "(+51) 927418762",
+            "faIcon": "fa-brands fa-whatsapp",
+            "href": "https://wa.me/+51927418762"
+        }
+    }
+}

@@ -1,0 +1,248 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My trajectory as a backend developer has been marked by an unwavering dedication to learning new technologies and continuously improving my technical skills. Additionally, my curiosity and passion for innovation have driven me to explore advanced development methodologies and participate in challenging projects that have enriched my professional experience. As a result, I have achieved significant accomplishments in designing and optimizing efficient and scalable systems."
+        },
+
+        "es": {
+            "title": "Logros <span class='text-primary'>Profesionales</span>",
+            "description": "Mi trayectoria como desarrollador backend ha estado marcada por una dedicación inquebrantable al aprendizaje de nuevas tecnologías y a la mejora constante de mis habilidades técnicas. Además, mi curiosidad y pasión por la innovación me han llevado a explorar metodologías avanzadas de desarrollo, así como a participar en proyectos desafiantes que han enriquecido mi experiencia profesional. Como resultado, he logrado acumular logros significativos en el diseño y optimización de sistemas eficientes y escalables."
+        },
+
+        "fr": {
+            "title": "Réalisations <span class='text-primary'>Professionnelles</span>",
+            "description": "Ma trajectoire en tant que développeur backend a été marquée par un engagement indéfectible envers l'apprentissage de nouvelles technologies et l'amélioration continue de mes compétences techniques. De plus, ma curiosité et ma passion pour l'innovation m'ont conduit à explorer des méthodologies de développement avancées et à participer à des projets stimulants qui ont enrichi mon expérience professionnelle. En conséquence, j'ai réussi à accumuler des réalisations significatives dans la conception et l'optimisation de systèmes efficaces et évolutifs."
+        },
+
+        "zh": {
+            "title": "职业<span class='text-primary'>成就</span>",
+            "description": "作为一名后端开发人员，我的职业轨迹以对学习新技术和不断提升技术能力的坚定承诺为标志。此外，我对创新的好奇心和热情驱使我探索高级开发方法，并参与了具有挑战性的项目，这些项目丰富了我的专业经验。因此，我在设计和优化高效、可扩展的系统方面取得了显著成就."
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"},
+                "es": {"title": "Premios", "buttonLabel": "Más Información"},
+                "fr": {"title": "Prix", "buttonLabel": "Plus d'Infos"},
+                "zh": {"title": "奖项", "buttonLabel": "了解更多"}
+            }
+        },
+
+        {
+            "id": "certifications",
+            "faIcon": "fa-solid fa-award",
+            "locales": {
+                "en": {"title": "Certifications", "buttonLabel": "View Certification"},
+                "es": {"title": "Certificaciones", "buttonLabel": "Ver Certificación"},
+                "fr": {"title": "Certifications", "buttonLabel": "Voir la Certification"},
+                "zh": {"title": "获得的证书", "buttonLabel": "查看证书"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "alumni_hackaton",
+                "place": "@link{places.UCV}",
+                "date": "2023/09",
+                "href": "https://drive.google.com/file/d/14bDAmNmLmWEBzciiPoLHLDIN2RZYc0cm/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "Networking Academy - Cisco Certified",
+                        "description": "I demonstrated the ability to develop and manage Cisco networking technologies, configuring devices and providing connectivity and security solutions for small networks."
+                    },
+
+                    "es": {
+                        "title": "Networking Academy - cisco certified",
+                        "description": "Demostré capacidad para desarrollar y gestionar tecnologías de redes Cisco, configurando dispositivos y soluciones de conectividad y seguridad en redes pequeñas."
+                    },
+
+                    "fr": {
+                        "title": "Academie Réseautique - Certifié Cisco",
+                        "description": "J'ai démontré ma capacité à développer et gérer les technologies de réseau Cisco, en configurant des dispositifs et en fournissant des solutions de connectivité et de sécurité pour de petits réseaux."
+                    },
+
+                    "zh": {
+                        "title": "网络学院 - 思科认证",
+                        "description": "我展示了开发和管理思科网络技术的能力，配置设备并为小型网络提供连接性和安全性解决方案。"
+                    }
+                }
+            },
+
+            {
+                "id": "Ucv_jam",
+                "place": "@link{places.UCV}",
+                "date": "2023/07",
+                "href": "https://drive.google.com/file/d/1f3ZLdg4DFzt17J87f8-BMoRI-2Y_iz6X/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "2nd Place - Expowork Internacional",
+                        "description": "Won second place in category 3 with the project 'Design and Implementation of an Information System and Database with Audit and Security Tools for the J&K Farma Pharmacy, 2023.'"
+                    },
+
+                    "es": {
+                        "title": "2er Lugar - Expowork internacional",
+                        "description": "Obtuvo el segundo lugar en la categoría 3 con el proyecto Diseño e Implementación de un Sistema Informático y una Base de Datos con Herramientas de Auditoría y Seguridad de la Información para la Botica J&K Farma, 2023."
+                    },
+
+                    "fr": {
+                        "title": "2ème place - Expowork International",
+                        "description": "A obtenu la deuxième place dans la catégorie 3 avec le projet 'Conception et mise en œuvre d'un système d'information et d'une base de données avec des outils d'audit et de sécurité pour la pharmacie J&K Farma, 2023.'"
+                    },
+
+                    "zh": {
+                        "title": "第二名 - Expowork 国际",
+                        "description": "在类别3中获得第二名，项目为'为J&K Farma药房设计和实施信息系统及数据库，并配备审计和安全工具，2023年。'"
+                    }
+                }
+            },
+
+            {
+                "id": "article_mention",
+                "place": "@link{places.UCV}",
+                "date": "2023/07",
+                "href": "https://drive.google.com/file/d/1PEXjXfc7YQbBHahYP-cOfpif-OBIDOSL/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "1st Place - Expowork Internacional",
+                        "description": "Won first place in category 3 with the project 'Information System for Sales and Inventory Process in Ricplast Company, 2023,' standing out for its innovation and technological solution."
+                    },
+
+                    "es": {
+                        "title": "1er Lugar - Expowork internacional",
+                        "description": "Obtuvo el primer lugar en la categoría 3 con el proyecto Sistema Informático para el Proceso de Ventas e Inventario en la Empresa Ricplast, 2023, destacando por su innovación y solución tecnológica."
+                    },
+
+                    "fr": {
+                        "title": "1ère place - Expowork International",
+                        "description": "A obtenu la première place dans la catégorie 3 avec le projet 'Système d'information pour le processus de ventes et d'inventaire dans l'entreprise Ricplast, 2023,' se distinguant par son innovation et sa solution technologique."
+                    },
+
+                    "zh": {
+                        "title": "第一名 - Expowork 国际",
+                        "description": "在类别3中获得第一名，项目为'Ricplast公司销售和库存过程的信息系统，2023年，凭借其创新性和技术解决方案脱颖而出。'"
+                    }
+                }
+            }
+        ],
+
+        "certifications": [
+            {
+                "id": "C#-certified",
+                "place": "@link{places.Freecodecamp}",
+                "date": "2024/03",
+                "href": "https://www.freecodecamp.org/certification/fcc77efe8ed-ed7c-46f7-9e03-da1262139672/foundational-c-sharp-with-microsoft",
+                "locales": {
+                    "en": {
+                        "title": "Foundational C# with Microsoft",
+                        "description": "I successfully completed the -ourse awarded by freeCodeCamp, developing my C# skills with the support of Microsoft."
+                    },
+
+                    "es": {
+                        "title": "Foundational C# with Microsoft",
+                        "description": "Completé exitosamente el curso otorgado por freeCodeCamp, desarrollando mis habilidades en C# con el apoyo de Microsoft."
+                    },
+
+                    "fr": {
+                        "title": "Fondamentaux de C# avec Microsoft",
+                        "description": "J'ai réussi le cours attribué par freeCodeCamp, développant mes compétences en C# avec le soutien de Microsoft."
+                    },
+
+                    "zh": {
+                        "title": "微软 C# 基础",
+                        "description": "我成功完成了由 freeCodeCamp 授予的课程，在微软的支持下提升了我的 C# 技能。"
+                    }
+                }
+            },
+            {
+                "id": "Git-certified",
+                "place": "@link{places.Gitkraken}",
+                "date": "2024/10",
+                "href": "https://learn.gitkraken.com/certificates/qnomaj1czd",
+                "locales": {
+                    "en": {
+                        "title": "Foundations of Git - Certification Course",
+                        "description": "I successfully completed the Git course awarded by GitKraken, developing and refining my skills in version control management."
+                    },
+
+                    "es": {
+                        "title": "Foundations of Git - Certification Course",
+                        "description": "Completé exitosamente el curso de Git otorgado por GitKraken, desarrollando y perfeccionando mis habilidades en el manejo de este sistema de control de versiones."
+                    },
+
+                    "fr": {
+                       "title": "Fondamentaux de Git - Cours de certification",
+                       "description": "J'ai réussi le cours Git attribué par GitKraken, développant et perfectionnant mes compétences en gestion de contrôle de version."
+                    },
+
+                    "zh": {
+                        "title": "Git 基础 - 认证课程",
+                        "description": "我成功完成了由 GitKraken 授予的 Git 课程，开发并完善了我在版本控制管理方面的技能。"
+                    }
+                }
+            },                                                                            
+
+            {
+                "id": "Scrum-certified",
+                "place": "@link{places.Credly}",
+                "date": "2024/12",
+                "href": "https://www.credly.com/badges/76cad17f-1e2e-4937-ae1b-75e57b7e863e/linked_in_profile",
+                "locales": {
+                    "en": {
+                        "title": "Scrum Foundation Certification Candidate",
+                        "description": "I earned this badge for participating in the initial learning activity of Scrum as part of the Certiprof certification process."
+                    },
+
+                    "es": {
+                        "title": "Scrum Foundation Certification Candidate",
+                        "description": "Conseguí esta insignia por participar en la actividad de aprendizaje inicial de Scrum, como parte del proceso de certificación de Certiprof."
+                    },
+
+                    "fr": {
+                        "title": "Candidat à la certification Scrum Foundation",
+                        "description": "J'ai obtenu cette insigne pour avoir participé à l'activité d'apprentissage initiale de Scrum dans le cadre du processus de certification de Certiprof."
+                    },
+
+                    "zh": {
+                        "title": "Scrum Foundation 认证候选人",
+                        "description": "我获得此徽章是因为参与了Scrum的初始学习活动，作为Certiprof认证过程的一部分。"
+                    }
+                }
+            },
+
+            {
+                "id": "material_cert",
+                "place": "@link{places.Zonatech}",
+                "date": "2024/12",
+                "href": "https://drive.google.com/file/d/1a4O_0Z5QDiGOxj93x6MOAlcIQBLsq5fO/view",
+                "locales": {
+                    "en": {
+                        "title": "TechXpert Training - Backend .NET Developer",
+                         "description": "I earned this certificate for successfully completing the training program by ZonaTech Peru in the Backend .NET Developer specialization."
+                    },
+
+                    "es": {
+                        "title": "Formación TechXpert - Desarrollador Backend .NET",
+                        "description": "Obtuve este certificado por finalizar satisfactoriamente el programa de entrenamiento de ZonaTech Perú en la especialidad de Desarrollador Backend .NET."
+                    },
+
+                    "fr": {
+                        "title": "Formation TechXpert - Développeur Backend .NET",
+                        "description": "J'ai obtenu ce certificat pour avoir terminé avec succès le programme de formation de ZonaTech Pérou dans la spécialité Développeur Backend .NET."
+                    },
+
+                    "zh": {
+                        "title": "TechXpert 培训 - 后端 .NET 开发人员",
+                         "description": "我获得此证书是因为成功完成了ZonaTech Peru的后端 .NET 开发人员专项培训项目。"
+                    }
+                }
+            }
+        ]
+    }
+}
