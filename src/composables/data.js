@@ -1,7 +1,3 @@
-/**
- * Created by Ryan Balieiro on 08.23.2023
- * This composable will fetch and manage the application data.
- */
 import {reactive} from "vue"
 import {useUtils} from "./utils.js"
 import {useLanguage} from "./language.js"

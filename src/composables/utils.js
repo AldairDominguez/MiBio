@@ -1,7 +1,3 @@
-/**
- * Created by Ryan Balieiro on 08.23.2023
- * This composable will implement helper functions that can be used by multiple components within the architecture.
- */
 export function useUtils() {
     /**
      * @param {Number} value

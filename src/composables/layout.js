@@ -1,7 +1,3 @@
-/**
- * Created by Ryan Balieiro on 08.23.2023
- * This composable will implement helper methods that manipulate DOM elements.
- */
 import {useConstants} from "./constants.js"
 
 const constants = useConstants()

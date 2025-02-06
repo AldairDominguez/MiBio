@@ -1,7 +1,3 @@
-/**
- * Created by Ryan Balieiro on 08.23.2023
- * Main router.
- */
 import {useData} from "../composables/data.js"
 import RouterView from "../vue/core/RouterView.vue"
 import {createRouter, createWebHistory} from "vue-router"
