@@ -1,34 +1,33 @@
 {
     "locales": {
         "en": {
-            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcome": "Discover who I am and what<span class='text-primary'> I do!</span>",
             "welcomeShort": "Welcome!",
-            "bio": "Backend developer specialized in .NET, I stand out for creating robust and scalable technological solutions. My passion for innovation and the design of efficient systems drives me to transform ideas into digital realities. Let's work together to create something extraordinary!"
+            "bio": "Greetings! I am a backend developer specialized in .NET. I focus on creating technological solutions that are both robust and scalable. My enthusiasm for innovation and effective system design drives me to turn ideas into digital realities. Let’s collaborate to create something truly extraordinary!"
         },
 
         "es": {
-            "welcome": "¡Bienvenido(a) a mi <span class='text-primary'>CV!</span>",
+            "welcome": "¡Descubre quién soy y que<span class='text-primary'> hago!</span>",
             "welcomeShort": "¡Saludos!",
-            "bio": "Desarrollador backend especializado en .NET, me destaco por crear soluciones tecnológicas robustas y escalables. Mi pasión por la innovación y el diseño de sistemas eficientes me impulsa a transformar ideas en realidades digitales. ¡Trabajemos juntos para crear algo extraordinario!"
+            "bio": "¡Saludos! Soy un desarrollador backend con especialización en .NET. Me enfoco en la creación de soluciones tecnológicas que son tanto robustas como escalables. Mi entusiasmo por la innovación y el diseño de sistemas efectivos me lleva a convertir ideas en realidades digitales. ¡Colaboremos para crear algo realmente extraordinario!"
         },
 
         "fr": {
-            "welcome": "Bienvenue sur mon <span class='text-primary'>CV</span>!",
+            "welcome": "Découvrez qui je suis et ce<span class='text-primary'> que je fais !</span>",
             "welcomeShort": "Bienvenue!",
-            "bio": "Développeur backend spécialisé en .NET, je me démarque par la création de solutions technologiques robustes et évolutives. Ma passion pour l'innovation et la conception de systèmes efficaces me pousse à transformer les idées en réalités numériques. Travaillons ensemble pour créer quelque chose d'extraordinaire !"
+            "bio": "Bonjour ! Je suis un développeur backend spécialisé en .NET. Je me concentre sur la création de solutions technologiques à la fois robustes et évolutives. Mon enthousiasme pour l'innovation et la conception de systèmes efficaces me pousse à transformer des idées en réalités numériques. Collaborons pour créer quelque chose de vraiment extraordinaire !"
         },
 
         "zh": {
-            "welcome": "欢迎来到我的<span class='text-primary'>简历</span>！",
+            "welcome": "发现我是谁，以及我做<span class='text-primary'>什么！</span>",
             "welcomeShort": "欢迎!",
-            "bio": "后端开发人员，专注于 .NET，擅长创建稳健且可扩展的技术解决方案。我对创新和高效系统设计的热情驱使我将创意转化为数字化现实。让我们一起合作，创造非凡的成果！"
+            "bio": "你好！我是一名专注于 .NET 的后端开发者。我专注于创建既稳健又可扩展的技术解决方案。我对创新和高效系统设计的热情推动我将想法转化为数字现实。让我们合作创造一些真正非凡的东西！"
         }
     },
 
     "items": {
         "socialCircles": [
             "@link{profile.contact.instagram}",
-            "@link{profile.contact.facebook}",
             "@link{profile.contact.linkedin}",
             "@link{profile.contact.github}"
         ],

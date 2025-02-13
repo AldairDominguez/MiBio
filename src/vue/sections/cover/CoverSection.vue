@@ -53,9 +53,10 @@ const coverTitle = computed(() => {
 @import "/src/scss/_theming.scss";
 
 .cover-title {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 53px;
 }
 
 .solid-divider {

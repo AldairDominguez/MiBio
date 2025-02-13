@@ -28,7 +28,7 @@
         "address": {
             "id": "address",
             "value": "San juan de Lurigancho",
-            "valueShort": "San juan de Lurigancho , CP 15404",
+            "valueShort": "Lima, Perú",
             "faIcon": "fa-solid fa-city",
             "href": null
         },
@@ -39,14 +39,6 @@
             "valueShort": "aldair30d@gmail.com",
             "faIcon": "fa-solid fa-envelope",
             "href": "mailto:aldair30d@gmail.com"
-        },
-
-        "facebook": {
-            "id": "facebook",
-            "value": "Aldair Dominguez",
-            "valueShort": "A. Dominguez",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://www.facebook.com/profile.php?id=100007465247441"
         },
 
         "github": {
