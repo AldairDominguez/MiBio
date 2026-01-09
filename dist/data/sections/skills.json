@@ -17,7 +17,6 @@
             "description": "探索我所掌握和发展的多样技能:"
         }
     },
-
     "subcategories": [
         {
             "id": "abilities",
@@ -25,50 +24,79 @@
             "progress": null,
             "faIcon": "fa-solid fa-square",
             "locales": {
-                "en": {"title": null}
+                "en": {
+                    "title": null
+                }
             }
         },
-
         {
             "id": "programming",
             "type": "grid",
-            "progress": "number",
+            "progress": null,
             "faIcon": "fa fa-code",
             "locales": {
-                "en": {"title": "Programming"},
-                "es": {"title": "Programación"},
-                "fr": {"title": "Programmation"},
-                "zh": {"title": "编程"}
+                "en": {
+                    "title": "Programming"
+                },
+                "es": {
+                    "title": "Programación"
+                },
+                "fr": {
+                    "title": "Programmation"
+                },
+                "zh": {
+                    "title": "编程"
+                }
             }
         },
-
         {
             "id": "languages",
             "type": "list",
-            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
+            "progress": {
+                "0": "beginner",
+                "20": "rookie",
+                "40": "intermediate",
+                "60": "advanced",
+                "80": "fluent",
+                "100": "native"
+            },
             "faIcon": "fa fa-language",
             "locales": {
-                "en": {"title": "Languages"},
-                "es": {"title": "Idiomas"},
-                "fr": {"title": "Langues"},
-                "zh": {"title": "语言"}
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                },
+                "fr": {
+                    "title": "Langues"
+                },
+                "zh": {
+                    "title": "语言"
+                }
             }
         },
-
         {
             "id": "extra",
             "type": "grid",
             "progress": null,
             "faIcon": "fa fa-marker",
             "locales": {
-                "en": {"title": "Bonus Skills"},
-                "es": {"title": "Habilidades Adicionales"},
-                "fr": {"title": "Plus Habiletés"},
-                "zh": {"title": "附加技能"}
+                "en": {
+                    "title": "Bonus Skills"
+                },
+                "es": {
+                    "title": "Habilidades Adicionales"
+                },
+                "fr": {
+                    "title": "Plus Habiletés"
+                },
+                "zh": {
+                    "title": "附加技能"
+                }
             }
         }
     ],
-
     "items": {
         "abilities": [
             {
@@ -94,7 +122,6 @@
                     }
                 }
             },
-
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-solid fa-database",
@@ -118,7 +145,6 @@
                     }
                 }
             },
-
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-sharp-duotone fa-solid fa-server",
@@ -142,7 +168,6 @@
                     }
                 }
             },
-
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-brands fa-git-alt",
@@ -166,7 +191,6 @@
                     }
                 }
             },
-
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-solid fa-flask-vial",
@@ -190,7 +214,6 @@
                     }
                 }
             },
-
             {
                 "imageIconUrl": null,
                 "faIcon": "fa-solid fa-briefcase",
@@ -206,7 +229,7 @@
                     },
                     "fr": {
                         "title": "Méthodologies Agiles",
-                        "description": "Compétent dans la mise en œuvre de méthodologies agiles comme Scrum, favorisant des équipes collaboratives et des livraisons itératives alignées sur les objectifs de l’entreprise."
+                        "description": "Compétent dans la mise en œuvre de méthodologies agiles comme Scrum, favorisant des équipes collaboratives et des livraisons itératives alignées sur les objectifs de l'entreprise."
                     },
                     "zh": {
                         "title": "敏捷方法论",
@@ -215,163 +238,354 @@
                 }
             }
         ],
-
         "programming": [
             {
                 "imageIconUrl": "images/icons/7.png",
                 "faIcon": null,
-                "value": 90,
+                "value": null,
                 "locales": {
-                    "en": {"title": "C#", "description": "Experience Time: 2 years"},
-                    "es": {"title": "C#", "description": "Experiencia: 2 años"},
-                    "fr": {"title": "C#", "description": "Expérience : 2 ans"},
-                    "zh": {"title": "C#", "description": "经验时长：2年"}
+                    "en": {
+                        "title": "C#",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "C#",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "C#",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "C#",
+                        "description": ""
+                    }
                 }
             },
-
             {
                 "imageIconUrl": "images/icons/8.png",
                 "faIcon": null,
-                "value": 70,
+                "value": null,
                 "locales": {
-                    "en": {"title": "Java", "description": "Experience Time: 1 year"},
-                    "es": {"title": "Java", "description": "Experiencia: 1 año"},
-                    "fr": {"title": "Java", "description": "Expérience : 1 an"},
-                    "zh": {"title": "Java", "description": "经验时长：1年"}
+                    "en": {
+                        "title": "Java",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Java",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Java",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Java",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/9.png",
                 "faIcon": null,
-                "value": 65,
+                "value": null,
                 "locales": {
-                    "en": {"title": "Python", "description": "Experience: 1 year"},
-                    "es": {"title": "Python", "description": "Experiencia: 1 año"},
-                    "fr": {"title": "Python", "description": "Expérience : 1 an"},
-                    "zh": {"title": "Python", "description": "经验时长：1年"}
+                    "en": {
+                        "title": "Python",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Python",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Python",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Python",
+                        "description": ""
+                    }
                 }
             },
-           
             {
                 "imageIconUrl": "images/icons/13.png",
                 "faIcon": null,
-                "value": 75,
+                "value": null,
                 "locales": {
-                    "en": {"title": "JavaScript", "description": "Experience Time: 1 year"},
-                    "es": {"title": "JavaScript", "description": "Experiencia: 1 año"},
-                    "fr": {"title": "JavaScript", "description": "Expérience : 1 an"},
-                    "zh": {"title": "JavaScript", "description": "经验时长：1年"}
+                    "en": {
+                        "title": "JavaScript",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "JavaScript",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "JavaScript",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "JavaScript",
+                        "description": ""
+                    }
+                }
+            },
+            {
+                "imageIconUrl": "images/icons/react.png",
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "React",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "React",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "React",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "React",
+                        "description": ""
+                    }
+                }
+            },
+            {
+                "imageIconUrl": "images/icons/flutter.png",
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Flutter",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Flutter",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Flutter",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Flutter",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/12.png",
                 "faIcon": null,
-                "value": 55,
+                "value": null,
                 "locales": {
-                    "en": {"title": "Sass/Less", "description": "Experience: 5 months"},
-                    "es": {"title": "Sass/Less", "description": "Experiencia: 5 meses"},
-                    "fr": {"title": "Sass/Less", "description": "5 mois"},
-                    "zh": {"title": "Sass/Less", "description": "经验时长：5个月"}
+                    "en": {
+                        "title": "Sass/Less",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Sass/Less",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Sass/Less",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Sass/Less",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/1.png",
                 "faIcon": null,
-                "value": 55,
+                "value": null,
                 "locales": {
-                    "en": {"title": "Vue 3", "description": "Experience: 5 months"},
-                    "es": {"title": "Vue 3", "description": "Experiencia: 5 meses"},
-                    "fr": {"title": "Vue 3", "description": "Expérience : 5 mois"},
-                    "zh": {"title": "Vue 3", "description": "经验时长：5个月"}
+                    "en": {
+                        "title": "Vue 3",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Vue 3",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Vue 3",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Vue 3",
+                        "description": ""
+                    }
                 }
             },
-
             {
                 "imageIconUrl": "images/icons/10.png",
                 "faIcon": null,
-                "value": 80,
+                "value": null,
                 "locales": {
-                    "en": {"title": "SQL Server", "description": "Experience: 2 years"},
-                    "es": {"title": "SQL Server", "description": "Experiencia: 2 años"},
-                    "fr": {"title": "SQL Server", "description": "Expérience : 2 ans"},
-                    "zh": {"title": "SQL Server", "description": "经验时长：2年"}
+                    "en": {
+                        "title": "SQL Server",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "SQL Server",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "SQL Server",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "SQL Server",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/15.png",
                 "faIcon": null,
-                "value": 80,
+                "value": null,
                 "locales": {
-                    "en": {"title": "Entity Framework", "description": "Experience: 1 year"},
-                    "es": {"title": "Entity Framework", "description": "Experiencia: 1 año"},
-                    "fr": {"title": "Entity Framework", "description": "Expérience : 1 an"},
-                    "zh": {"title": "Entity Framework", "description": "经验时长：1年"}
+                    "en": {
+                        "title": "Entity Framework",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "Entity Framework",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "Entity Framework",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "Entity Framework",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/14.png",
                 "faIcon": null,
-                "value": 80,
+                "value": null,
                 "locales": {
-                    "en": {"title": "ASP.NET Core", "description": "Experience: 1 year"},
-                    "es": {"title": "ASP.NET Core", "description": "Experiencia: 1 año"},
-                    "fr": {"title": "ASP.NET Core", "description": "Expérience : 1 an"},
-                    "zh": {"title": "ASP.NET Core", "description": "经验时长：1年"}
+                    "en": {
+                        "title": "ASP.NET Core",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "ASP.NET Core",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "ASP.NET Core",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "ASP.NET Core",
+                        "description": ""
+                    }
                 }
             },
             {
                 "imageIconUrl": "images/icons/16.png",
                 "faIcon": null,
-                "value": 90,
+                "value": null,
                 "locales": {
-                    "en": {"title": "GitHub", "description": ""},
-                    "es": {"title": "GitHub", "description": ""},
-                    "fr": {"title": "GitHub", "description": ""},
-                    "zh": {"title": "GitHub", "description": ""}
+                    "en": {
+                        "title": "GitHub",
+                        "description": ""
+                    },
+                    "es": {
+                        "title": "GitHub",
+                        "description": ""
+                    },
+                    "fr": {
+                        "title": "GitHub",
+                        "description": ""
+                    },
+                    "zh": {
+                        "title": "GitHub",
+                        "description": ""
+                    }
                 }
             }
-            
         ],
-
         "languages": [
-
             {
                 "imageIconUrl": "images/flags/es.png",
                 "faIcon": null,
                 "value": 90,
                 "locales": {
-                    "en": {"title": "Spanish", "description": "Fluent in both spoken and written Spanish; confident in professional communication."},
-                    "es": {"title": "Español", "description": "Fluido en español hablado y escrito; seguro en la comunicación profesional."},
-                    "fr": {"title": "Espagnol", "description": "Courant à la fois à l'oral et à l'écrit en espagnol ; confiant dans la communication professionnelle."},
-                    "zh": {"title": "西班牙语", "description": "流利的西班牙语口语和书写能力；自信地进行专业沟通。"}
+                    "en": {
+                        "title": "Spanish",
+                        "description": "Fluent in both spoken and written Spanish; confident in professional communication."
+                    },
+                    "es": {
+                        "title": "Español",
+                        "description": "Fluido en español hablado y escrito; seguro en la comunicación profesional."
+                    },
+                    "fr": {
+                        "title": "Espagnol",
+                        "description": "Courant à la fois à l'oral et à l'écrit en espagnol ; confiant dans la communication professionnelle."
+                    },
+                    "zh": {
+                        "title": "西班牙语",
+                        "description": "流利的西班牙语口语和书写能力；自信地进行专业沟通。"
+                    }
                 }
             },
-
             {
                 "imageIconUrl": "images/flags/en.png",
                 "faIcon": null,
                 "value": 10,
                 "locales": {
-                    "en": {"title": "English", "description": "Basic understanding of English; learning and improving."},
-                    "es": {"title": "Inglés", "description": "Comprensión básica del inglés; aprendiendo y mejorando."},
-                    "fr": {"title": "Anglais", "description": "Compréhension de base de l'anglais ; en apprentissage et en amélioration."},
-                    "zh": {"title": "英语", "description": "基本的英语理解；正在学习和提高。"}
+                    "en": {
+                        "title": "English",
+                        "description": "Basic understanding of English; learning and improving."
+                    },
+                    "es": {
+                        "title": "Inglés",
+                        "description": "Comprensión básica del inglés; aprendiendo y mejorando."
+                    },
+                    "fr": {
+                        "title": "Anglais",
+                        "description": "Compréhension de base de l'anglais ; en apprentissage et en amélioration."
+                    },
+                    "zh": {
+                        "title": "英语",
+                        "description": "基本的英语理解；正在学习和提高。"
+                    }
                 }
             }
-
-            
         ],
-
         "extra": [
             {
                 "imageIconUrl": null,
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Data Analysis and Visualization with BI Tools", "description": "Ability to analyze large datasets and create interactive dashboards using tools like Excel, Power BI, and Looker Studio, providing clear visualizations and data-driven decision-making."},
-                    "es": {"title": "Análisis y Visualización de Datos con Herramientas de BI", "description": "Capacidad para analizar grandes conjuntos de datos y crear dashboards interactivos utilizando herramientas como Excel, Power BI y Looker Studio, proporcionando visualizaciones claras y decisiones basadas en datos."},
-                    "fr": {"title": "Analyse et Visualisation de Données avec les Outils BI", "description": "Capacité à analyser de grands ensembles de données et à créer des tableaux de bord interactifs en utilisant des outils comme Excel, Power BI et Looker Studio, offrant des visualisations claires et facilitant la prise de décisions basées sur les données."},
-                    "zh": {"title": "使用BI工具进行数据分析和可视化", "description": "具备分析大型数据集并使用Excel、Power BI和Looker Studio等工具创建交互式仪表板的能力，提供清晰的可视化和基于数据的决策支持。"}
+                    "en": {
+                        "title": "Data Analysis and Visualization with BI Tools",
+                        "description": "Ability to analyze large datasets and create interactive dashboards using tools like Excel, Power BI, and Looker Studio, providing clear visualizations and data-driven decision-making."
+                    },
+                    "es": {
+                        "title": "Análisis y Visualización de Datos con Herramientas de BI",
+                        "description": "Capacidad para analizar grandes conjuntos de datos y crear dashboards interactivos utilizando herramientas como Excel, Power BI y Looker Studio, proporcionando visualizaciones claras y decisiones basadas en datos."
+                    },
+                    "fr": {
+                        "title": "Analyse et Visualisation de Données avec les Outils BI",
+                        "description": "Capacité à analyser de grands ensembles de données et à créer des tableaux de bord interactifs en utilisant des outils comme Excel, Power BI et Looker Studio, offrant des visualisations claires et facilitant la prise de décisions basées sur les données."
+                    },
+                    "zh": {
+                        "title": "使用BI工具进行数据分析和可视化",
+                        "description": "具备分析大型数据集并使用Excel、Power BI和Looker Studio等工具创建交互式仪表板的能力，提供清晰的可视化和基于数据的决策支持。"
+                    }
                 }
             },
             {
@@ -379,10 +593,22 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Process Automation with Python", "description": "Ability to develop Python scripts that automate repetitive tasks, improving the efficiency of processes and systems."},
-                    "es": {"title": "Automatización de Procesos con Python", "description": "Habilidad para desarrollar scripts en Python que automatizan tareas repetitivas, mejorando la eficiencia de procesos y sistemas."},
-                    "fr": {"title": "Automatisation des Processus avec Python", "description": "Capacité à développer des scripts Python pour automatiser les tâches répétitives, améliorant ainsi l’efficacité des processus et des systèmes."},
-                    "zh": {"title": "使用Python进行流程自动化", "description": "具备开发Python脚本的能力，实现重复任务的自动化，提高流程和系统的效率。"}
+                    "en": {
+                        "title": "Process Automation with Python",
+                        "description": "Ability to develop Python scripts that automate repetitive tasks, improving the efficiency of processes and systems."
+                    },
+                    "es": {
+                        "title": "Automatización de Procesos con Python",
+                        "description": "Habilidad para desarrollar scripts en Python que automatizan tareas repetitivas, mejorando la eficiencia de procesos y sistemas."
+                    },
+                    "fr": {
+                        "title": "Automatisation des Processus avec Python",
+                        "description": "Capacité à développer des scripts Python pour automatiser les tâches répétitives, améliorant ainsi l'efficacité des processus et des systèmes."
+                    },
+                    "zh": {
+                        "title": "使用Python进行流程自动化",
+                        "description": "具备开发Python脚本的能力，实现重复任务的自动化，提高流程和系统的效率。"
+                    }
                 }
             },
             {
@@ -390,10 +616,22 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "SQL Query Optimization", "description": "Ability to write complex SQL queries, optimizing them to improve performance and data retrieval"},
-                    "es": {"title": "Optimización de Consultas SQL", "description": "Capacidad para escribir consultas SQL complejas, optimizándolas para mejorar el rendimiento y la velocidad de recuperación de datos."},
-                    "fr": {"title": "Optimisation des Requêtes SQL", "description": "Capacité à écrire des requêtes SQL complexes, en les optimisant pour améliorer les performances et la vitesse de récupération des données."},
-                    "zh": {"title": "SQL查询优化", "description": "能够编写复杂的SQL查询，并对其进行优化，以提高性能和数据检索速度。"}
+                    "en": {
+                        "title": "SQL Query Optimization",
+                        "description": "Ability to write complex SQL queries, optimizing them to improve performance and data retrieval"
+                    },
+                    "es": {
+                        "title": "Optimización de Consultas SQL",
+                        "description": "Capacidad para escribir consultas SQL complejas, optimizándolas para mejorar el rendimiento y la velocidad de recuperación de datos."
+                    },
+                    "fr": {
+                        "title": "Optimisation des Requêtes SQL",
+                        "description": "Capacité à écrire des requêtes SQL complexes, en les optimisant pour améliorer les performances et la vitesse de récupération des données."
+                    },
+                    "zh": {
+                        "title": "SQL查询优化",
+                        "description": "能够编写复杂的SQL查询，并对其进行优化，以提高性能和数据检索速度。"
+                    }
                 }
             },
             {
@@ -401,10 +639,22 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Creation of Interactive and Custom Dashboards", "description": "Expert in designing and developing interactive dashboards using tools like Power BI and Looker Studio, enabling intuitive visualization of key data for informed decision-making."},
-                    "es": {"title": "Creación de Dashboards Interactivos y Personalizados", "description": "Experto en el diseño y desarrollo de dashboards interactivos utilizando herramientas como Power BI y Looker Studio, permitiendo la visualización de datos clave de manera intuitiva para la toma de decisiones informadas."},
-                    "fr": {"title": "Création de Tableaux de Bord Interactifs et Personnalisés", "description": "Expert en conception et développement de tableaux de bord interactifs à l'aide d'outils comme Power BI et Looker Studio, permettant une visualisation intuitive des données clés pour une prise de décision éclairée."},
-                    "zh": {"title": "创建交互式和个性化仪表板", "description": "精通使用Power BI和Looker Studio等工具设计和开发交互式仪表板，实现关键数据的直观可视化，帮助做出明智决策。"}
+                    "en": {
+                        "title": "Creation of Interactive and Custom Dashboards",
+                        "description": "Expert in designing and developing interactive dashboards using tools like Power BI and Looker Studio, enabling intuitive visualization of key data for informed decision-making."
+                    },
+                    "es": {
+                        "title": "Creación de Dashboards Interactivos y Personalizados",
+                        "description": "Experto en el diseño y desarrollo de dashboards interactivos utilizando herramientas como Power BI y Looker Studio, permitiendo la visualización de datos clave de manera intuitiva para la toma de decisiones informadas."
+                    },
+                    "fr": {
+                        "title": "Création de Tableaux de Bord Interactifs et Personnalisés",
+                        "description": "Expert en conception et développement de tableaux de bord interactifs à l'aide d'outils comme Power BI et Looker Studio, permettant une visualisation intuitive des données clés pour une prise de décision éclairée."
+                    },
+                    "zh": {
+                        "title": "创建交互式和个性化仪表板",
+                        "description": "精通使用Power BI和Looker Studio等工具设计和开发交互式仪表板，实现关键数据的直观可视化，帮助做出明智决策。"
+                    }
                 }
             },
             {
@@ -412,10 +662,22 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "Performance Optimization and Scalability of Backend Applications", "description": "Ability to identify bottlenecks and optimize the performance of backend applications, improving query efficiency and configurations to ensure proper scaling and high performance in high-traffic environments."},
-                    "es": {"title": "Optimización de Rendimiento y Escalabilidad de Aplicaciones Backend", "description": "Capacidad para identificar cuellos de botella y optimizar el rendimiento de aplicaciones backend, mejorando la eficiencia de consultas y configuraciones para asegurar un escalado adecuado y alto rendimiento en entornos de alto tráfico."},
-                    "fr": {"title": "Optimisation des Performances et Scalabilité des Applications Backend", "description": "Capacité à identifier les goulots d'étranglement et à optimiser les performances des applications backend, en améliorant l'efficacité des requêtes et les configurations pour garantir une mise à l'échelle appropriée et des performances élevées dans des environnements à fort trafic."},
-                    "zh": {"title": "后端应用的性能优化与可扩展性", "description": "能够识别瓶颈并优化后端应用的性能，通过提高查询效率和配置，确保在高流量环境中适当的扩展和高性能。"}
+                    "en": {
+                        "title": "Performance Optimization and Scalability of Backend Applications",
+                        "description": "Ability to identify bottlenecks and optimize the performance of backend applications, improving query efficiency and configurations to ensure proper scaling and high performance in high-traffic environments."
+                    },
+                    "es": {
+                        "title": "Optimización de Rendimiento y Escalabilidad de Aplicaciones Backend",
+                        "description": "Capacidad para identificar cuellos de botella y optimizar el rendimiento de aplicaciones backend, mejorando la eficiencia de consultas y configuraciones para asegurar un escalado adecuado y alto rendimiento en entornos de alto tráfico."
+                    },
+                    "fr": {
+                        "title": "Optimisation des Performances et Scalabilité des Applications Backend",
+                        "description": "Capacité à identifier les goulots d'étranglement et à optimiser les performances des applications backend, en améliorant l'efficacité des requêtes et les configurations pour garantir une mise à l'échelle appropriée et des performances élevées dans des environnements à fort trafic."
+                    },
+                    "zh": {
+                        "title": "后端应用的性能优化与可扩展性",
+                        "description": "能够识别瓶颈并优化后端应用的性能，通过提高查询效率和配置，确保在高流量环境中适当的扩展和高性能。"
+                    }
                 }
             },
             {
@@ -423,13 +685,24 @@
                 "faIcon": null,
                 "value": null,
                 "locales": {
-                    "en": {"title": "ORM Management with Entity Framework", "description": "Strong knowledge of using Entity Framework to manage data persistence in .NET applications, optimizing queries, and performing database migrations."},
-                    "es": {"title": "Manejo de ORM con Entity Framework", "description": "Sólido conocimiento en el uso de Entity Framework para gestionar la persistencia de datos en aplicaciones .NET, optimizando consultas y realizando migraciones de base de datos."},
-                    "fr": {"title": "Gestion de l'ORM avec Entity Framework", "description": "Solide connaissance de l'utilisation d'Entity Framework pour gérer la persistance des données dans les applications .NET, optimiser les requêtes et effectuer des migrations de bases de données."},
-                    "zh": {"title": "使用Entity Framework管理ORM", "description": "精通使用Entity Framework管理.NET应用中的数据持久化，优化查询并执行数据库迁移。"}
+                    "en": {
+                        "title": "ORM Management with Entity Framework",
+                        "description": "Strong knowledge of using Entity Framework to manage data persistence in .NET applications, optimizing queries, and performing database migrations."
+                    },
+                    "es": {
+                        "title": "Manejo de ORM con Entity Framework",
+                        "description": "Sólido conocimiento en el uso de Entity Framework para gestionar la persistencia de datos en aplicaciones .NET, optimizando consultas y realizando migraciones de base de datos."
+                    },
+                    "fr": {
+                        "title": "Gestion de l'ORM avec Entity Framework",
+                        "description": "Solide connaissance de l'utilisation d'Entity Framework pour gérer la persistance des données dans les applications .NET, optimiser les requêtes et effectuer des migrations de bases de données."
+                    },
+                    "zh": {
+                        "title": "使用Entity Framework管理ORM",
+                        "description": "精通使用Entity Framework管理.NET应用中的数据持久化，优化查询并执行数据库迁移。"
+                    }
                 }
             }
         ]
-
     }
 }

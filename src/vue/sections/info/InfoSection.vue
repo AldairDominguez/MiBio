@@ -21,6 +21,7 @@ import SubHeading from "../_templates/SubHeading.vue"
 
 import InfoList from "./layouts/InfoList.vue"
 import InfoGrid from "./layouts/InfoGrid.vue"
+import InfoGridModern from "./layouts/InfoGridModern.vue"
 import InfoPie from "./layouts/InfoPie.vue"
 
 import {useLayout} from "../../../composables/layout.js"
@@ -43,6 +44,7 @@ const utils = useUtils()
  */
 const COMPONENTS_MAP = {
     grid: InfoGrid,
+    gridModern: InfoGridModern,
     pie: InfoPie,
     list: InfoList,
     fallback: InfoList
@@ -59,6 +61,11 @@ const STYLE_PREFERENCES = layout.getStylePreferencesForPlugins()
  * @private
  */
 const _getComponentFor = (subcategory) => {
+    // Use modern grid for programming skills
+    if (subcategory['id'] === 'programming') {
+        return COMPONENTS_MAP['gridModern']
+    }
+    
     const dataType = subcategory['type']
     return COMPONENTS_MAP[dataType] || COMPONENTS_MAP['fallback']
 }
