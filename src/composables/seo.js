@@ -62,7 +62,7 @@ export function useSEO() {
     const getSectionSEO = (sectionId) => {
         const seoData = {
             about: {
-                title: 'Acerca de Mí | Aldair Dominguez',
+                title: 'Aldair Dominguez | Desarrollador Backend .NET',
                 description: 'Conoce a Aldair Dominguez, un Desarrollador Backend .NET de Lima, Perú, especializado en crear soluciones robustas y escalables.'
             },
             education: {
