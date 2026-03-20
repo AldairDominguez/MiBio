@@ -55,7 +55,7 @@ export default defineConfig(({ mode }) => {
 
       reportCompressedSize: true,
 
-      target: 'es2015'
+      target: 'es2020'
     },
 
     optimizeDeps: {
