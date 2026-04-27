@@ -1,7 +1,7 @@
 <template>
     <div class="inline-list lead">
         <!-- List Item -->
-        <div class="list-item" v-for="item in props.items">
+        <div class="list-item" v-for="item in props.items" :key="item['id'] || item['value'] || item['valueShort']">
             <!-- List item is a link... -->
             <a v-if="_getItemUrl(item)" :href="_getItemUrl(item)" class="info-item-link">
                 <i v-if="_getItemFaIcon(item)" :class="_getItemFaIcon(item)" class="list-item-icon"/>

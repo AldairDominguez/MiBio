@@ -10,7 +10,7 @@
         <!-- Items Column -->
         <div class="col-12 col-xl-7 col-xxl-8 d-flex pt-3">
             <div class="row gy-1 gy-xl-3 gx-md-5 items-wrapper">
-                <div v-for="item in props.items" class="col-12 col-sm-6 item-container">
+                <div v-for="item in props.items" :key="item['locales']['title']" class="col-12 col-sm-6 item-container">
                     <InfoItem :item="item"
                               :highlighted-header="false"
                               :small-description="true"

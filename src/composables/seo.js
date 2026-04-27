@@ -1,45 +1,44 @@
-/**
- * Composable for managing dynamic SEO meta tags
- * Updates page title and meta descriptions based on current section
- */
+
 export function useSEO() {
+    const BASE_URL = 'https://aldairdominguez.me'
+
     /**
-     * Update meta tags for a specific section
-     * @param {Object} options - SEO options
-     * @param {string} options.title - Page title
-     * @param {string} options.description - Meta description
-     * @param {string} options.section - Current section name
+     * Update meta tags for a specific section.
+     * @param {Object} options
+     * @param {string} options.title
+     * @param {string} options.description
+     * @param {string} options.section
      */
     const updateMetaTags = (options = {}) => {
         const {
             title = 'Aldair Dominguez | Desarrollador Backend .NET',
-            description = 'Desarrollador backend especializado en .NET, C# y ASP.NET. Creando soluciones tecnológicas robustas y escalables.',
+            description = 'Desarrollador backend especializado en .NET, C# y ASP.NET. Creando soluciones tecnologicas robustas y escalables.',
             section = 'about'
         } = options
 
-        // Update document title
         if (title) {
             document.title = title
         }
 
-        // Update meta description
         updateMetaTag('name', 'description', description)
-
-        // Update Open Graph tags
         updateMetaTag('property', 'og:title', title)
         updateMetaTag('property', 'og:description', description)
-        updateMetaTag('property', 'og:url', `https://aldairdominguez.tech/#${section}`)
-
-        // Update Twitter Card tags
+        updateMetaTag('property', 'og:url', BASE_URL)
         updateMetaTag('name', 'twitter:title', title)
         updateMetaTag('name', 'twitter:description', description)
+        updateMetaTag('name', 'twitter:url', BASE_URL)
+
+        const canonical = document.querySelector('link[rel="canonical"]')
+        if (canonical) {
+            canonical.setAttribute('href', `${BASE_URL}/`)
+        }
     }
 
     /**
-     * Helper function to update or create meta tags
-     * @param {string} attr - Attribute name (name or property)
-     * @param {string} key - Attribute value
-     * @param {string} content - Content value
+     * Helper function to update or create meta tags.
+     * @param {string} attr
+     * @param {string} key
+     * @param {string} content
      */
     const updateMetaTag = (attr, key, content) => {
         let element = document.querySelector(`meta[${attr}="${key}"]`)
@@ -55,43 +54,43 @@ export function useSEO() {
     }
 
     /**
-     * Get SEO data for specific sections
-     * @param {string} sectionId - Section identifier
-     * @returns {Object} SEO data for the section
+     * Get SEO data for specific sections.
+     * @param {string} sectionId
+     * @returns {Object}
      */
     const getSectionSEO = (sectionId) => {
         const seoData = {
             about: {
                 title: 'Aldair Dominguez | Desarrollador Backend .NET',
-                description: 'Conoce a Aldair Dominguez, un Desarrollador Backend .NET de Lima, Perú, especializado en crear soluciones robustas y escalables.'
+                description: 'Portafolio de Aldair Dominguez, desarrollador backend .NET en Lima, Peru. APIs con C#, ASP.NET Core, SQL Server e integraciones escalables.'
             },
             education: {
-                title: 'Educación | Aldair Dominguez',
-                description: 'Explora mi formación académica y certificaciones en desarrollo de software y tecnologías .NET.'
+                title: 'Educacion | Aldair Dominguez',
+                description: 'Formacion academica, cursos y certificaciones de Aldair Dominguez en desarrollo de software, .NET y tecnologias backend.'
             },
             skills: {
                 title: 'Habilidades | Aldair Dominguez',
-                description: 'Descubre mis habilidades técnicas incluyendo .NET, C#, ASP.NET, SQL Server y tecnologías modernas de desarrollo backend.'
+                description: 'Habilidades tecnicas en .NET, C#, ASP.NET Core, SQL Server, APIs REST, integraciones y desarrollo backend.'
             },
             experience: {
                 title: 'Experiencia | Aldair Dominguez',
-                description: 'Conoce mi experiencia profesional como Desarrollador Backend .NET y los proyectos en los que he trabajado.'
+                description: 'Experiencia profesional de Aldair Dominguez como desarrollador backend .NET en proyectos, sistemas e integraciones.'
             },
             portfolio: {
                 title: 'Portafolio | Aldair Dominguez',
-                description: 'Explora mi portafolio de proyectos que incluyen aplicaciones .NET, servicios web y soluciones backend.'
+                description: 'Portafolio con aplicaciones .NET, servicios web, APIs REST y proyectos de software desarrollados por Aldair Dominguez.'
             },
             achievements: {
                 title: 'Logros | Aldair Dominguez',
-                description: 'Revisa mis logros profesionales, certificaciones y reconocimientos en desarrollo de software.'
+                description: 'Logros, certificaciones y reconocimientos de Aldair Dominguez en desarrollo de software y tecnologia.'
             },
             hobbies: {
                 title: 'Pasatiempos e Intereses | Aldair Dominguez',
-                description: 'Conoce mis intereses personales y pasatiempos más allá del desarrollo de software.'
+                description: 'Intereses personales y pasatiempos de Aldair Dominguez mas alla del desarrollo de software.'
             },
             contact: {
                 title: 'Contacto | Aldair Dominguez',
-                description: '¡Ponte en contacto conmigo para oportunidades de colaboración, proyectos o simplemente para saludar!'
+                description: 'Contacto de Aldair Dominguez para colaboraciones, proyectos backend .NET y oportunidades profesionales.'
             }
         }
 

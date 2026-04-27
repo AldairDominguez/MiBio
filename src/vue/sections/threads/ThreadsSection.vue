@@ -2,7 +2,7 @@
     <SectionTemplate :section-data="props.sectionData">
         <!-- Threads Grid -->
         <div class="row g-4 g-lg-5">
-            <div v-for="subcategory in props.sectionData['content']['subcategories']" class="col-12 col-xxl-6 thread-container">
+            <div v-for="subcategory in props.sectionData['content']['subcategories']" :key="subcategory['id']" class="col-12 col-xxl-6 thread-container">
                 <!-- Category Name -->
                 <SubHeading :title="subcategory['locales']['title']"
                             :fa-icon="subcategory['faIcon']"/>

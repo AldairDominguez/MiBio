@@ -2,7 +2,7 @@
     <!-- Thread -->
     <ul class="thread">
         <!-- Item -->
-        <li v-for="item in orderedItems" class="thread-item">
+        <li v-for="item in orderedItems" :key="item['date'] + '-' + item['locales']['title']" class="thread-item">
             <!-- Circle -->
             <span class="fa fa-stack thread-icon">
                 <i class="fa fa-circle fa-stack-1x"/>

@@ -1,5 +1,6 @@
 <template>
     <component v-for="section in data.getSections()"
+               :key="section['id']"
                :is="_getSectionComponentByName(section['component'])"
                :section-data="section"/>
 </template>

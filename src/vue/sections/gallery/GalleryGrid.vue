@@ -2,6 +2,7 @@
     <div class="gallery-grid row">
         <!-- Grid Column -->
         <div v-for="item in props.items"
+             :key="item.data['id']"
              v-show="item.visible"
              class="gallery-grid-col col-4 col-xl-3 text-center"
              :class="{'gallery-grid-col-appear': item.visible && !isAnimating}">

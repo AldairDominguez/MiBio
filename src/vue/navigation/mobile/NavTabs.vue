@@ -2,7 +2,7 @@
     <div class="nav-tabs-wrapper">
         <nav class="nav-tabs">
             <!-- Nav Tab Item -->
-            <button v-for="category in data.getCategories()" :class="_getNavTabClassList(category)" @click="_onLinkClicked(category)">
+            <button v-for="category in data.getCategories()" :key="category['id']" :class="_getNavTabClassList(category)" @click="_onLinkClicked(category)">
                 <!-- Item Content -->
                 <i class="nav-tab-button-icon" :class="category['faIcon']"/>
                 <span class="nav-tab-button-label">{{data.getString(category['id'])}}</span>

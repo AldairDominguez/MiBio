@@ -3,7 +3,7 @@
         <!-- Bootstrap's Button Group -->
         <div class="btn-group" role="group">
             <!-- Filter Items -->
-            <button v-for="item in props.items" type="button" class="btn btn-light text-2"
+            <button v-for="item in props.items" :key="item.id" type="button" class="btn btn-light text-2"
                     :class="{active:_isItemSelected(item)}"
                     @click="_selectItem(item)">
                 <!-- Item Label -->

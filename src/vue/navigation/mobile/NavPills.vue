@@ -2,7 +2,7 @@
     <!-- Nav Pills (Category Navigation) -->
     <div v-if="props.sections && props.sections.length >= 2" class="nav-pills">
         <!-- Nav Pill -->
-        <button v-for="section in props.sections" :class="_getNavPillClass(section)" @click="_onLinkClicked(section)">
+        <button v-for="section in props.sections" :key="section['id']" :class="_getNavPillClass(section)" @click="_onLinkClicked(section)">
             <!-- Button Content -->
             <i class="nav-pill-icon" :class="section['faIcon']"/>
             <span class="d-none d-sm-inline">{{data.getString(section['id'])}}</span>

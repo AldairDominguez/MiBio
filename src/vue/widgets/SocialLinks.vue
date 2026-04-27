@@ -1,7 +1,7 @@
 <template>
     <div class="social-links">
         <!-- Social Button -->
-        <a v-for="item in props.items" class="btn btn-social" target="_blank"
+        <a v-for="item in props.items" :key="item['id'] || item['href']" class="btn btn-social" target="_blank"
            :href="item['href']"
            :aria-label="item['faIcon']">
 

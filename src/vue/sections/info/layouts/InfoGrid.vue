@@ -1,6 +1,6 @@
 <template>
     <div class="row gx-5">
-        <div v-for="item in props.items" class="col-12 col-md-6 item-container">
+        <div v-for="item in props.items" :key="item['locales']['title']" class="col-12 col-md-6 item-container">
             <InfoItem :item="item"
                       :highlighted-header="true"
                       :small-description="false"

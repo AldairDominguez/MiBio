@@ -36,10 +36,8 @@ import {computed, onMounted, ref} from "vue"
 import ProgressBar from "../widgets/ProgressBar.vue"
 import ImageView from "../widgets/ImageView.vue"
 import {useData} from "/src/composables/data.js"
-import {useLayout} from "/src/composables/layout.js"
 
 const data = useData()
-const layout = useLayout()
 
 const emit = defineEmits(['shown', 'hiding', 'hidden'])
 
@@ -88,7 +86,7 @@ const _onIntervalTick = () => {
     let stepFinished = false
     switch (currentStep.value) {
         case Steps.LOADING_LOGO:
-            stepFinished = uiLogo.value && uiLogo.value.isLoaded() && currentStepElapsedTime.value > 0.4
+            stepFinished = currentStepElapsedTime.value > 1 || (uiLogo.value && uiLogo.value.isLoaded() && currentStepElapsedTime.value > 0.4)
             break
 
         case Steps.SHOWING_LOGO:
@@ -131,18 +129,8 @@ const _nextStep = () => {
 
 const _updateProgressStatus = () => {
     const jsonLoadProgress = data.getLoadProgress()
-    const imageCount = layout.getImageCount()
-
-    let imageLoadProgress = 0
-    if(imageCount.total > 0) {
-        imageLoadProgress = Math.round(100 * imageCount.loaded / imageCount.total)
-    }
-    else if(jsonLoadProgress === 100) {
-        imageLoadProgress = 100
-    }
-
     const durationPercentage = 100 * currentStepElapsedTime.value/1.2
-    const loadingPercentage = imageLoadProgress
+    const loadingPercentage = jsonLoadProgress
     const average = (durationPercentage + loadingPercentage)/2
 
     const diff = Math.min(2, average - percentage.value)

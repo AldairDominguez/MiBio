@@ -3,6 +3,7 @@
     <div class="tags">
         <!-- Bootstrap Badge -->
         <div v-for="item in props.items"
+             :key="item.id || item.label || item"
              class="tag badge text-1"
              :class="badgeClassList">
 

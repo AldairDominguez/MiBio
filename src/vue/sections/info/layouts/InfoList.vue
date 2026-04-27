@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div v-for="item in props.items" class="col-12 item-container">
+        <div v-for="item in props.items" :key="item['locales']['title']" class="col-12 item-container">
             <InfoItem :item="item"
                       :highlighted-header="false"
                       :small-description="false"

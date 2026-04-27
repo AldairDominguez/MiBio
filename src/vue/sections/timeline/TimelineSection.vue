@@ -3,7 +3,7 @@
         <!-- Timeline -->
         <ul class="timeline">
             <!-- Timeline Items -->
-            <li v-for="item in orderedItems" class="timeline-item">
+            <li v-for="item in orderedItems" :key="item['period'][0] + '-' + item['locales']['title']" class="timeline-item">
                 <!-- Logo Wrapper -->
                 <div class="timeline-item-logo" :class="{'timeline-item-logo-bg-primary':!(item['place'] && item['place']['logoUrl'])}">
                     <!-- If item has an image... -->

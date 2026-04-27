@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://aldairdominguez.tech/sitemap.xml
+Sitemap: https://aldairdominguez.me/sitemap.xml
 
 # Disallow crawling of build artifacts
 Disallow: /node_modules/

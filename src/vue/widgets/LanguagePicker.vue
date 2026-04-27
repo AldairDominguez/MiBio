@@ -18,7 +18,7 @@
             <!-- Dropdown Menu -->
             <ul class="dropdown-menu">
                 <!-- Dropdown Item -->
-                <li v-for="lang in availableLanguages">
+                <li v-for="lang in availableLanguages" :key="lang['id']">
                     <button class="dropdown-item" @click="_onLanguageSelected(lang)">
                         <!-- Language Flag Icon -->
                         <img :alt="lang['name']"
@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import Dropdown from '/node_modules/bootstrap/js/src/dropdown'
+import 'bootstrap/js/src/dropdown'
 import {useLanguage} from "../../composables/language.js"
 import {computed} from "vue"
 import {useLayout} from "../../composables/layout.js"

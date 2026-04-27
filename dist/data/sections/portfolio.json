@@ -194,7 +194,7 @@
                 "logoUrl": "images/portfolio/mibio.png",
                 "links": [
                     {"faIcon": "fa-brands fa-github", "href": "https://github.com/AldairDominguez/MiBio", "id": "Github"},
-                    {"faIcon": "fa-solid fa-globe", "href": "http://mibio.aldairdominguez.tech/", "id": "Internet"}
+                    {"faIcon": "fa-solid fa-globe", "href": "https://aldairdominguez.me/", "id": "Internet"}
                 ],
                 "locales": {
                     "en": {

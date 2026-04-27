@@ -47,9 +47,11 @@ export function useData() {
      * @return {Promise<void>}
      */
     const fetchEssentials = async () => {
-        const jSections = await _loadJson(constants.BASE_PATH + '/data/sections.json')
-        const jSettings = await _loadJson(constants.BASE_PATH + '/data/settings.json')
-        const jStrings = await _loadJson(constants.BASE_PATH + '/data/strings.json')
+        const [jSections, jSettings, jStrings] = await Promise.all([
+            _loadJson(constants.BASE_PATH + '/data/sections.json'),
+            _loadJson(constants.BASE_PATH + '/data/settings.json'),
+            _loadJson(constants.BASE_PATH + '/data/strings.json')
+        ])
 
         _jsonData.sections = jSections['sections']
         _jsonData.categories = jSections['categories']
@@ -64,8 +66,10 @@ export function useData() {
      * @return {Promise<void>}
      */
     const fetchAll = async () => {
-        const jPlaces = await _loadJson(constants.BASE_PATH + '/data/info/places.json')
-        const jProfile = await _loadJson(constants.BASE_PATH + '/data/info/profile.json')
+        const [jPlaces, jProfile] = await Promise.all([
+            _loadJson(constants.BASE_PATH + '/data/info/places.json'),
+            _loadJson(constants.BASE_PATH + '/data/info/profile.json')
+        ])
 
         _jsonData.places = jPlaces
         _jsonData.profile = jProfile
@@ -149,6 +153,9 @@ export function useData() {
      */
     const _loadJson = async (path) => {
         const request = await fetch(path)
+        if (!request.ok) {
+            throw new Error(`Failed to load resource: ${path}`)
+        }
         return request.json()
     }
 
@@ -157,6 +164,8 @@ export function useData() {
      * @private
      */
     const _loadSections = async () => {
+        const contentLoads = []
+
         for (const section of _jsonData.sections) {
             const sectionId = section['id']
             const sectionCategoryId = section['categoryId']
@@ -171,14 +180,20 @@ export function useData() {
             sectionCategory['sectionIds'].push(sectionId)
 
             if(utils.isStringAJSONUrl(jsonPath)) {
-                section['content'] = await _loadJson(jsonPath)
+                contentLoads.push(
+                    _loadJson(jsonPath).then(content => {
+                        section['content'] = content
+                        _progressData.loadedFiles++
+                    })
+                )
             }
             else {
                 section['content'] = {}
+                _progressData.loadedFiles++
             }
-
-            _progressData.loadedFiles++
         }
+
+        await Promise.all(contentLoads)
 
         /** Delete empty categories, if there's any... **/
         for (let i = _jsonData.categories.length - 1; i >= 0; i--) {

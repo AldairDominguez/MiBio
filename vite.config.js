@@ -23,8 +23,7 @@ export default defineConfig(({ mode }) => {
         output: {
           manualChunks: {
             'vendor': ['vue', 'vue-router'],
-            'bootstrap': ['bootstrap', '@popperjs/core'],
-            'fontawesome': ['@fortawesome/fontawesome-free']
+            'bootstrap': ['bootstrap', '@popperjs/core']
           },
 
           assetFileNames: (assetInfo) => {
